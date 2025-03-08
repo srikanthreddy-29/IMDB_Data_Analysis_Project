@@ -4,8 +4,8 @@ import pandas as pd
 # Load your datasets (Replace with actual file paths)
 @st.cache_data
 def load_data():
-    movies = pd.read_csv(r"C:\Users\haris\Desktop\vs_code\IMDB_data_analysis\movie.csv",low_memory= False)
-    tags = pd.read_csv(r"C:\Users\haris\Desktop\vs_code\IMDB_data_analysis\tag.csv", low_memory= False)
+    movies = pd.read_csv("movie.csv",low_memory= False)
+    tags = pd.read_csv("tag.csv", low_memory= False)
     #ratings = pd.read_csv(r"C:\Users\haris\Desktop\vs_code\IMDB_data_analysis\rating.csv", low_memory=False)
     return movies, tags  #, ratings
 
