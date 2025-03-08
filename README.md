@@ -23,7 +23,7 @@ The dataset consists of the following tables:
 ## **🚀 How to Run Locally**  
 1. Clone this repository:
    
-   git clone https://github.com/srikanthreddy-29/IMDB_Data_Analysis.git
+   git clone https://github.com/srikanthreddy-29/IMDB_Data_Analysis_Project.git
    
 3. Install dependencies:  
    
